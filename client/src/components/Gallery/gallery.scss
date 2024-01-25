@@ -1,0 +1,43 @@
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .gallery_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        .txt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+        .product_row{
+            display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+img{
+    width: 100%;
+    height: 100%;
+}
+
+    }
+    @media screen and (max-width:892px){
+      .product_row{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+         .txt{
+            text-align: center;
+         }
+            }
+}
+}

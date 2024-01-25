@@ -1,0 +1,71 @@
+.admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+        margin-bottom: 50px;
+        form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+padding: 40px;
+background-color: aquamarine;
+border-radius: 10px;
+input{
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    color:gray;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    transition: 0.3s;
+}
+button:hover{
+color: rgb(255, 255, 255);
+background-color: black;
+border-color: black;
+}
+h5{
+    color: red;
+}
+
+        }
+        table{
+            border: 1px solid black;
+            thead{
+                tr{
+                  td{
+                      border: 1px solid black;
+                  }
+                }
+              }
+              tbody{
+                  tr{
+                    td{
+                        border: 1px solid black;
+                        img{
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                    
+                  }
+              }
+        }
+    }
+}

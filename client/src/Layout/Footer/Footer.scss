@@ -1,0 +1,55 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #222222;  
+    .con{
+        padding: 50px;
+        display: flex;
+        align-items: flex-start;
+        width: 80%;
+        gap: 50px;
+        justify-content: space-between;
+       
+.col{
+    display: flex;
+    align-items: flex-start;
+flex-direction: column;
+width: 100%;
+gap: 10px;
+h1{
+    color: #656565;
+    font-size: 17px;
+}
+p{
+    color: #656565;
+}
+li{
+    a{
+        color: #464242;
+    font-size: 14px;
+    transition: 0.3s;
+    }
+}
+li:hover{
+    a{
+        color: orange;
+    }
+}
+}
+@media screen and (max-width:1340px){
+    flex-direction: column;
+    align-items: center;
+  .col{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+          }
+    }
+   
+}

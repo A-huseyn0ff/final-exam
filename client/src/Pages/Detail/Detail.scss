@@ -1,0 +1,19 @@
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .detail_con{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
