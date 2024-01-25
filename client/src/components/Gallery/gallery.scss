@@ -16,7 +16,14 @@
             justify-content: center;
             flex-direction: column;
             gap: 20px;
-
+            width: 30%;
+            text-align: center;
+p{
+    color: gray;
+}
+h1{
+    font-size: 40px;
+}
         }
         .product_row{
             display: grid;

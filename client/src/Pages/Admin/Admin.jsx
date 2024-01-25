@@ -32,10 +32,10 @@ fetchdata()
         },
         validationSchema: Yup.object({
             image: Yup.string()
-            
-            .required('Required'),
+            .required('Required')
+            .matches(`(https?:\/\/.*\.(?:png|jpg))`),
             name: Yup.string()
-            
+          
             .required('Required'),
             title: Yup.string()
             
